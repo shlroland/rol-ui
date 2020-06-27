@@ -22,11 +22,11 @@ module.exports = {
             {
                 multiline: {
                     delimiter: 'none',
-                    requireLast: false,
+                    requireLast: true,
                 },
                 singleline: {
                     delimiter: 'none',
-                    requireLast: false,
+                    requireLast: true,
                 },
                 // overrides: {
                 //     interface: {
