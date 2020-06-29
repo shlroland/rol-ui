@@ -28,24 +28,13 @@ module.exports = {
                     delimiter: 'none',
                     requireLast: true,
                 },
-                // overrides: {
-                //     interface: {
-                //         multiline: {
-                //             delimiter: 'none',
-                //             requireLast: false,
-                //         },
-                //         singleline: {
-                //             delimiter: 'comma',
-                //             requireLast: false,
-                //         },
-                //     },
-                // },
             },
         ],
+        'react/prop-types': [0],
     },
-    // settings: {
-    //     react: {
-    //         version: 'detect', // 告诉 eslint-plugin-react 自动检测 React 的版本
-    //     },
-    // },
+    settings: {
+        react: {
+            version: 'detect', // 告诉 eslint-plugin-react 自动检测 React 的版本
+        },
+    },
 }
