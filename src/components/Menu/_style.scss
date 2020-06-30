@@ -32,7 +32,6 @@
 
     .submenu-item {
         position: relative;
-
         .submenu-title {
             display: flex;
             align-items: center;
@@ -40,6 +39,7 @@
 
         .arrow-icon {
             transition: transform 0.25s ease-in-out;
+            margin-top: 3px;
             margin-left: 3px;
         }
 

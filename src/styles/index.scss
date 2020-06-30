@@ -1,5 +1,7 @@
 @import 'variables'; //config
 @import 'reboot'; //layout
 @import 'mixin'; //mixin
+@import 'animation'; //animation
 @import '../components/Button/style'; // button
-@import '../components/Menu/style';// menu
+@import '../components/Menu/style'; // menu
+@import '../components/Icon/style'; //Icon
